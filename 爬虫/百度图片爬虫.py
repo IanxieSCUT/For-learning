@@ -28,8 +28,8 @@ def search(keyword,filepath,pagenumber):
         'se':1,
         'showtab':0,
         'fb':0,
-        'width':'',
-        'height':'',
+        'width':'480',
+        'height':'360',
         'face':0,
         'istype':2,
         'ie':'utf-8',
@@ -64,7 +64,7 @@ def picsdownload(url, filename, filepath):
 
 if __name__ == '__main__':
     filepath = '/Users/ian_xie/Desktop/user_pics'
-    keyword = '生活照女'
+    keyword = '生活照'
     page = 15
     for i in range(1,page):
         pagenumber = i * 20
